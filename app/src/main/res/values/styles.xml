@@ -4,8 +4,10 @@
         <item name="android:background">@color/black_overlay</item>
     </style>
 
-    <style name="Widget.Theme.AppRelogio.ButtonBar.Fullscreen" parent="">
+    <style name="Widget.Theme.AppRelogio.ButtonBar.Fullscreen" parent="ThemeOverlay.MaterialComponents.ActionBar.Primary">
         <item name="android:background">@color/black_overlay</item>
+        <item name="android:windowActionBar">false</item>
         <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="android:windowNoTitle">true</item>
     </style>
 </resources>

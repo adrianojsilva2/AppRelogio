@@ -15,14 +15,19 @@
     </style>
 
     <style name="Theme.AppRelogio.Fullscreen" parent="Theme.AppRelogio">
-        <item name="android:actionBarStyle">@style/Widget.Theme.AppRelogio.ActionBar.Fullscreen
-        </item>
-        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:actionBarStyle">@style/Widget.Theme.AppRelogio.ActionBar.Fullscreen</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionBarOverlay">false</item>
         <item name="android:windowBackground">@null</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
     </style>
 
     <style name="ThemeOverlay.AppRelogio.FullscreenContainer" parent="">
         <item name="fullscreenBackgroundColor">@color/light_blue_600</item>
         <item name="fullscreenTextColor">@color/light_blue_A200</item>
+        <item name="android:windowActionBarOverlay">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
     </style>
 </resources>
